@@ -205,3 +205,36 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Data Platform Specific
+# ClickHouse
+*.clickhouse
+
+# Docker
+docker-compose.override.yml
+
+# Data files (exclude from version control)
+*.csv
+*.parquet
+!pyproject.toml
+!package.json
+*.xlsx
+*.xls
+
+# Query results and temporary files
+queries/results/
+queries/tmp/
+tmp/
+temp/
+*.tmp
+
+# Logs
+logs/
+
+# IDE (uncommented for common usage)
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store

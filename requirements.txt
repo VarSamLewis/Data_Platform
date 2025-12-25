@@ -1,0 +1,6 @@
+clickhouse-connect==0.10.0
+fastapi==0.115.6
+mypy==1.19.1
+ruff==0.14.10
+black==25.9.0
+python-dotenv==1.2.1
